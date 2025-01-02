@@ -3,12 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Halsin</title>
+    <title>Halsin & Astarion</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&family=Rock+Salt&display=swap"
+        rel="stylesheet">
+
 
     <style>
 
         * {
             box-sizing: border-box;
+            font-family: "Inter", serif;
+            font-weight: 400;
+        }
+
+        .sig {
+            font-family: "Rock Salt", serif;
+  font-weight: 400;
         }
 
         body, html {
@@ -42,13 +55,28 @@
         }
 
         .content {
-            background: rgba(255,255,255,0.75);
-            padding: 60px;
             position: absolute;
             left: 50%;
             top: 50%;
             transform: translate(-50%,-50%);
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
         }
+
+        .bear-content, .man-content {
+                padding: 40px;
+            }
+
+            .man-content {
+                background: rgba(255, 0, 0, 0.75);
+            }
+            
+            .bear-content {
+                background: rgba(75, 43, 24, 0.75);
+            }
+            .bear-content p {
+                color: white;
+            }
     </style>
 </head>
 <body>
@@ -57,34 +85,84 @@
         <div class="man"></div>
         <div class="bear"></div>
         <div class="content">
-            <p>My Dearest Halsin,</p>
             
-            <p>In the quiet moments when the world hushes its chaos, I find my thoughts drifting to you—your strength as unwavering
-                as the oaks of the forest, your kindness as soothing as the rustle of leaves in a summer breeze.</p>
+            <div class="bear-content">
+                <p>My Dearest Halsin,</p>
             
-            <p>You are a soul of profound beauty, a protector of balance, a being whose heart beats in rhythm with the wild. When
-                you speak of nature's harmony, I feel as though I am hearing the song of the earth itself, and when you smile, it is
-                as if the sun has broken through the densest canopy.</p>
+                <p>In the quiet moments when the world hushes its chaos, I find my thoughts drifting to you—your strength as
+                    unwavering
+                    as the oaks of the forest, your kindness as soothing as the rustle of leaves in a summer breeze.</p>
             
-            <p>I am drawn to the way you carry yourself: a warrior when the moment demands it, yet a healer at heart, ever seeking
-                to mend what is broken. Your devotion to the circle, your respect for all life, and your compassion for even the
-                smallest of creatures inspire me to see the world with gentler eyes.</p>
+                <p>You are a soul of profound beauty, a protector of balance, a being whose heart beats in rhythm with the wild.
+                    When
+                    you speak of nature's harmony, I feel as though I am hearing the song of the earth itself, and when you smile,
+                    it is
+                    as if the sun has broken through the densest canopy.</p>
             
-            <p>Though you are no stranger to pain or sacrifice, you wear your scars with grace, a testament to your resilience. It
-                humbles me, knowing the burdens you have borne, and yet you remain unyielding, a pillar of hope.</p>
+                <p>I am drawn to the way you carry yourself: a warrior when the moment demands it, yet a healer at heart, ever
+                    seeking
+                    to mend what is broken. Your devotion to the circle, your respect for all life, and your compassion for even the
+                    smallest of creatures inspire me to see the world with gentler eyes.</p>
             
-            <p>If ever I have felt out of place or lost in the labyrinth of life, your presence has been a guide, steady and true. I
-                yearn to be by your side, to walk among the trees with you, to share in your silences and your laughter.</p>
+                <p>Though you are no stranger to pain or sacrifice, you wear your scars with grace, a testament to your resilience.
+                    It
+                    humbles me, knowing the burdens you have borne, and yet you remain unyielding, a pillar of hope.</p>
             
-            <p>Halsin, you are the wild and the wonder of the world wrapped in a mortal frame. And yet, it is the simplicity of your
-                heart that moves me the most. With you, I am reminded that even amidst the storm, there is solace to be found in the
-                arms of someone who truly understands.</p>
+                <p>If ever I have felt out of place or lost in the labyrinth of life, your presence has been a guide, steady and
+                    true. I
+                    yearn to be by your side, to walk among the trees with you, to share in your silences and your laughter.</p>
             
-            <p>May the seasons turn gently in our favor, and may we always find our way back to one another, no matter how far the
-                paths may lead.</p>
+                <p>Halsin, you are the wild and the wonder of the world wrapped in a mortal frame. And yet, it is the simplicity of
+                    your
+                    heart that moves me the most. With you, I am reminded that even amidst the storm, there is solace to be found in
+                    the
+                    arms of someone who truly understands.</p>
             
-            <p>Yours always,<br>Stef</p>
-
+                <p>May the seasons turn gently in our favor, and may we always find our way back to one another, no matter how far
+                    the
+                    paths may lead.</p>
+            
+                <p>Yours always,<br><span class="sig">Stef</span></p>
+            
+            </div>
+            <div class="man-content">
+                <p>My Dearest Astarion,</p>
+            
+                <p>There is a magnetism about you, a darkness interwoven with light that both entices and bewilders me. You are the
+                    night sky—beautiful and vast, hiding untold stories in your depths, and I find myself endlessly captivated by
+                    every
+                    facet of who you are.</p>
+            
+                <p>Your sharp wit and the elegance with which you carry yourself are impossible to ignore, yet it is the
+                    vulnerability
+                    you shield so fiercely that truly steals my heart. Beneath the charm and mischief lies a soul yearning for
+                    freedom,
+                    for meaning, for love—and I long to offer you a haven from the shadows that have haunted you for so long.</p>
+            
+                <p>I admire your strength, not only in battle but in spirit. To have endured what you have, to rise above it with
+                    your
+                    head held high, is a testament to the unyielding flame within you. You have shown me that even in the darkest of
+                    nights, there is beauty to be found, and that even those who walk the shadows deserve to bask in the warmth of
+                    the
+                    sun.</p>
+            
+                <p>When you look at me with those piercing eyes, it is as though the world falls away, leaving only the two of us
+                    suspended in time. And when you allow yourself to laugh, truly laugh, I feel as though I am witnessing something
+                    sacred—a glimpse of the joy you so deserve.</p>
+            
+                <p>Let me be your anchor, your companion, your solace. Together, we can carve a new path, free from the chains of
+                    the
+                    past. You are not defined by the darkness that shaped you, Astarion, but by the choices you make now, and I see
+                    in
+                    you the potential for something truly extraordinary.</p>
+            
+                <p>My heart is yours, should you wish to take it. I will follow you through the shadows and into the light, wherever
+                    our
+                    journey may lead.</p>
+            
+                <p>Yours always,<br><span class="sig">Stef</span></p>
+            
+            </div>
         </div>
     </div>
     
